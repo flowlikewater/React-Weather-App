@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = '95c9beb2c1f348463ee41a88940825eb'
-const ROOT_URL = `http://samples.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`
+const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`
 export const FETCH_WEATHER = 'FETCH_WEATHER'
 
 export function fetchWeather(city){
